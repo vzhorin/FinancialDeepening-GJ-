@@ -1,0 +1,478 @@
+digraph SwiftProvenance {
+	graph [splines="compound", rankdir="TB"];
+	node [color="seagreen", style="filled"];
+	"0" [label="gj_main"]
+	"policy.mat" [shape=parallelogram,label="policyFile"]
+	"0" -> "policy.mat"
+	"1-29" [label="gj_sim"]
+	"policy.mat" [shape=parallelogram]
+	"policy.mat" -> "1-29"
+	"gj_log76.mat" [shape=parallelogram]
+	"gj_log76.mat" -> "1-29"
+	"sim_0030.mat" [shape=parallelogram,label="simOutputs.[30]"]
+	"1-29" -> "sim_0030.mat"
+	"1-0" [label="gj_sim"]
+	"policy.mat" [shape=parallelogram]
+	"policy.mat" -> "1-0"
+	"gj_log76.mat" [shape=parallelogram]
+	"gj_log76.mat" -> "1-0"
+	"sim_0001.mat" [shape=parallelogram,label="simOutputs.[1]"]
+	"1-0" -> "sim_0001.mat"
+	"1-49" [label="gj_sim"]
+	"policy.mat" [shape=parallelogram]
+	"policy.mat" -> "1-49"
+	"gj_log76.mat" [shape=parallelogram]
+	"gj_log76.mat" -> "1-49"
+	"sim_0050.mat" [shape=parallelogram,label="simOutputs.[50]"]
+	"1-49" -> "sim_0050.mat"
+	"1-39" [label="gj_sim"]
+	"policy.mat" [shape=parallelogram]
+	"policy.mat" -> "1-39"
+	"gj_log76.mat" [shape=parallelogram]
+	"gj_log76.mat" -> "1-39"
+	"sim_0040.mat" [shape=parallelogram,label="simOutputs.[40]"]
+	"1-39" -> "sim_0040.mat"
+	"1-24" [label="gj_sim"]
+	"policy.mat" [shape=parallelogram]
+	"policy.mat" -> "1-24"
+	"gj_log76.mat" [shape=parallelogram]
+	"gj_log76.mat" -> "1-24"
+	"sim_0025.mat" [shape=parallelogram,label="simOutputs.[25]"]
+	"1-24" -> "sim_0025.mat"
+	"1-23" [label="gj_sim"]
+	"policy.mat" [shape=parallelogram]
+	"policy.mat" -> "1-23"
+	"gj_log76.mat" [shape=parallelogram]
+	"gj_log76.mat" -> "1-23"
+	"sim_0024.mat" [shape=parallelogram,label="simOutputs.[24]"]
+	"1-23" -> "sim_0024.mat"
+	"1-34" [label="gj_sim"]
+	"policy.mat" [shape=parallelogram]
+	"policy.mat" -> "1-34"
+	"gj_log76.mat" [shape=parallelogram]
+	"gj_log76.mat" -> "1-34"
+	"sim_0035.mat" [shape=parallelogram,label="simOutputs.[35]"]
+	"1-34" -> "sim_0035.mat"
+	"1-30" [label="gj_sim"]
+	"policy.mat" [shape=parallelogram]
+	"policy.mat" -> "1-30"
+	"gj_log76.mat" [shape=parallelogram]
+	"gj_log76.mat" -> "1-30"
+	"sim_0031.mat" [shape=parallelogram,label="simOutputs.[31]"]
+	"1-30" -> "sim_0031.mat"
+	"1-18" [label="gj_sim"]
+	"policy.mat" [shape=parallelogram]
+	"policy.mat" -> "1-18"
+	"gj_log76.mat" [shape=parallelogram]
+	"gj_log76.mat" -> "1-18"
+	"sim_0019.mat" [shape=parallelogram,label="simOutputs.[19]"]
+	"1-18" -> "sim_0019.mat"
+	"1-20" [label="gj_sim"]
+	"policy.mat" [shape=parallelogram]
+	"policy.mat" -> "1-20"
+	"gj_log76.mat" [shape=parallelogram]
+	"gj_log76.mat" -> "1-20"
+	"sim_0021.mat" [shape=parallelogram,label="simOutputs.[21]"]
+	"1-20" -> "sim_0021.mat"
+	"1-42" [label="gj_sim"]
+	"policy.mat" [shape=parallelogram]
+	"policy.mat" -> "1-42"
+	"gj_log76.mat" [shape=parallelogram]
+	"gj_log76.mat" -> "1-42"
+	"sim_0043.mat" [shape=parallelogram,label="simOutputs.[43]"]
+	"1-42" -> "sim_0043.mat"
+	"1-25" [label="gj_sim"]
+	"policy.mat" [shape=parallelogram]
+	"policy.mat" -> "1-25"
+	"gj_log76.mat" [shape=parallelogram]
+	"gj_log76.mat" -> "1-25"
+	"sim_0026.mat" [shape=parallelogram,label="simOutputs.[26]"]
+	"1-25" -> "sim_0026.mat"
+	"1-32" [label="gj_sim"]
+	"policy.mat" [shape=parallelogram]
+	"policy.mat" -> "1-32"
+	"gj_log76.mat" [shape=parallelogram]
+	"gj_log76.mat" -> "1-32"
+	"sim_0033.mat" [shape=parallelogram,label="simOutputs.[33]"]
+	"1-32" -> "sim_0033.mat"
+	"1-43" [label="gj_sim"]
+	"policy.mat" [shape=parallelogram]
+	"policy.mat" -> "1-43"
+	"gj_log76.mat" [shape=parallelogram]
+	"gj_log76.mat" -> "1-43"
+	"sim_0044.mat" [shape=parallelogram,label="simOutputs.[44]"]
+	"1-43" -> "sim_0044.mat"
+	"1-35" [label="gj_sim"]
+	"policy.mat" [shape=parallelogram]
+	"policy.mat" -> "1-35"
+	"gj_log76.mat" [shape=parallelogram]
+	"gj_log76.mat" -> "1-35"
+	"sim_0036.mat" [shape=parallelogram,label="simOutputs.[36]"]
+	"1-35" -> "sim_0036.mat"
+	"1-13" [label="gj_sim"]
+	"policy.mat" [shape=parallelogram]
+	"policy.mat" -> "1-13"
+	"gj_log76.mat" [shape=parallelogram]
+	"gj_log76.mat" -> "1-13"
+	"sim_0014.mat" [shape=parallelogram,label="simOutputs.[14]"]
+	"1-13" -> "sim_0014.mat"
+	"1-26" [label="gj_sim"]
+	"policy.mat" [shape=parallelogram]
+	"policy.mat" -> "1-26"
+	"gj_log76.mat" [shape=parallelogram]
+	"gj_log76.mat" -> "1-26"
+	"sim_0027.mat" [shape=parallelogram,label="simOutputs.[27]"]
+	"1-26" -> "sim_0027.mat"
+	"1-44" [label="gj_sim"]
+	"policy.mat" [shape=parallelogram]
+	"policy.mat" -> "1-44"
+	"gj_log76.mat" [shape=parallelogram]
+	"gj_log76.mat" -> "1-44"
+	"sim_0045.mat" [shape=parallelogram,label="simOutputs.[45]"]
+	"1-44" -> "sim_0045.mat"
+	"1-9" [label="gj_sim"]
+	"policy.mat" [shape=parallelogram]
+	"policy.mat" -> "1-9"
+	"gj_log76.mat" [shape=parallelogram]
+	"gj_log76.mat" -> "1-9"
+	"sim_0010.mat" [shape=parallelogram,label="simOutputs.[10]"]
+	"1-9" -> "sim_0010.mat"
+	"1-19" [label="gj_sim"]
+	"policy.mat" [shape=parallelogram]
+	"policy.mat" -> "1-19"
+	"gj_log76.mat" [shape=parallelogram]
+	"gj_log76.mat" -> "1-19"
+	"sim_0020.mat" [shape=parallelogram,label="simOutputs.[20]"]
+	"1-19" -> "sim_0020.mat"
+	"1-28" [label="gj_sim"]
+	"policy.mat" [shape=parallelogram]
+	"policy.mat" -> "1-28"
+	"gj_log76.mat" [shape=parallelogram]
+	"gj_log76.mat" -> "1-28"
+	"sim_0029.mat" [shape=parallelogram,label="simOutputs.[29]"]
+	"1-28" -> "sim_0029.mat"
+	"1-3" [label="gj_sim"]
+	"policy.mat" [shape=parallelogram]
+	"policy.mat" -> "1-3"
+	"gj_log76.mat" [shape=parallelogram]
+	"gj_log76.mat" -> "1-3"
+	"sim_0004.mat" [shape=parallelogram,label="simOutputs.[4]"]
+	"1-3" -> "sim_0004.mat"
+	"1-41" [label="gj_sim"]
+	"policy.mat" [shape=parallelogram]
+	"policy.mat" -> "1-41"
+	"gj_log76.mat" [shape=parallelogram]
+	"gj_log76.mat" -> "1-41"
+	"sim_0042.mat" [shape=parallelogram,label="simOutputs.[42]"]
+	"1-41" -> "sim_0042.mat"
+	"1-27" [label="gj_sim"]
+	"policy.mat" [shape=parallelogram]
+	"policy.mat" -> "1-27"
+	"gj_log76.mat" [shape=parallelogram]
+	"gj_log76.mat" -> "1-27"
+	"sim_0028.mat" [shape=parallelogram,label="simOutputs.[28]"]
+	"1-27" -> "sim_0028.mat"
+	"1-17" [label="gj_sim"]
+	"policy.mat" [shape=parallelogram]
+	"policy.mat" -> "1-17"
+	"gj_log76.mat" [shape=parallelogram]
+	"gj_log76.mat" -> "1-17"
+	"sim_0018.mat" [shape=parallelogram,label="simOutputs.[18]"]
+	"1-17" -> "sim_0018.mat"
+	"1-14" [label="gj_sim"]
+	"policy.mat" [shape=parallelogram]
+	"policy.mat" -> "1-14"
+	"gj_log76.mat" [shape=parallelogram]
+	"gj_log76.mat" -> "1-14"
+	"sim_0015.mat" [shape=parallelogram,label="simOutputs.[15]"]
+	"1-14" -> "sim_0015.mat"
+	"1-1" [label="gj_sim"]
+	"policy.mat" [shape=parallelogram]
+	"policy.mat" -> "1-1"
+	"gj_log76.mat" [shape=parallelogram]
+	"gj_log76.mat" -> "1-1"
+	"sim_0002.mat" [shape=parallelogram,label="simOutputs.[2]"]
+	"1-1" -> "sim_0002.mat"
+	"1-6" [label="gj_sim"]
+	"policy.mat" [shape=parallelogram]
+	"policy.mat" -> "1-6"
+	"gj_log76.mat" [shape=parallelogram]
+	"gj_log76.mat" -> "1-6"
+	"sim_0007.mat" [shape=parallelogram,label="simOutputs.[7]"]
+	"1-6" -> "sim_0007.mat"
+	"1-36" [label="gj_sim"]
+	"policy.mat" [shape=parallelogram]
+	"policy.mat" -> "1-36"
+	"gj_log76.mat" [shape=parallelogram]
+	"gj_log76.mat" -> "1-36"
+	"sim_0037.mat" [shape=parallelogram,label="simOutputs.[37]"]
+	"1-36" -> "sim_0037.mat"
+	"1-5" [label="gj_sim"]
+	"policy.mat" [shape=parallelogram]
+	"policy.mat" -> "1-5"
+	"gj_log76.mat" [shape=parallelogram]
+	"gj_log76.mat" -> "1-5"
+	"sim_0006.mat" [shape=parallelogram,label="simOutputs.[6]"]
+	"1-5" -> "sim_0006.mat"
+	"1-16" [label="gj_sim"]
+	"policy.mat" [shape=parallelogram]
+	"policy.mat" -> "1-16"
+	"gj_log76.mat" [shape=parallelogram]
+	"gj_log76.mat" -> "1-16"
+	"sim_0017.mat" [shape=parallelogram,label="simOutputs.[17]"]
+	"1-16" -> "sim_0017.mat"
+	"1-46" [label="gj_sim"]
+	"policy.mat" [shape=parallelogram]
+	"policy.mat" -> "1-46"
+	"gj_log76.mat" [shape=parallelogram]
+	"gj_log76.mat" -> "1-46"
+	"sim_0047.mat" [shape=parallelogram,label="simOutputs.[47]"]
+	"1-46" -> "sim_0047.mat"
+	"1-37" [label="gj_sim"]
+	"policy.mat" [shape=parallelogram]
+	"policy.mat" -> "1-37"
+	"gj_log76.mat" [shape=parallelogram]
+	"gj_log76.mat" -> "1-37"
+	"sim_0038.mat" [shape=parallelogram,label="simOutputs.[38]"]
+	"1-37" -> "sim_0038.mat"
+	"1-33" [label="gj_sim"]
+	"policy.mat" [shape=parallelogram]
+	"policy.mat" -> "1-33"
+	"gj_log76.mat" [shape=parallelogram]
+	"gj_log76.mat" -> "1-33"
+	"sim_0034.mat" [shape=parallelogram,label="simOutputs.[34]"]
+	"1-33" -> "sim_0034.mat"
+	"1-15" [label="gj_sim"]
+	"policy.mat" [shape=parallelogram]
+	"policy.mat" -> "1-15"
+	"gj_log76.mat" [shape=parallelogram]
+	"gj_log76.mat" -> "1-15"
+	"sim_0016.mat" [shape=parallelogram,label="simOutputs.[16]"]
+	"1-15" -> "sim_0016.mat"
+	"1-11" [label="gj_sim"]
+	"policy.mat" [shape=parallelogram]
+	"policy.mat" -> "1-11"
+	"gj_log76.mat" [shape=parallelogram]
+	"gj_log76.mat" -> "1-11"
+	"sim_0012.mat" [shape=parallelogram,label="simOutputs.[12]"]
+	"1-11" -> "sim_0012.mat"
+	"1-4" [label="gj_sim"]
+	"policy.mat" [shape=parallelogram]
+	"policy.mat" -> "1-4"
+	"gj_log76.mat" [shape=parallelogram]
+	"gj_log76.mat" -> "1-4"
+	"sim_0005.mat" [shape=parallelogram,label="simOutputs.[5]"]
+	"1-4" -> "sim_0005.mat"
+	"1-40" [label="gj_sim"]
+	"policy.mat" [shape=parallelogram]
+	"policy.mat" -> "1-40"
+	"gj_log76.mat" [shape=parallelogram]
+	"gj_log76.mat" -> "1-40"
+	"sim_0041.mat" [shape=parallelogram,label="simOutputs.[41]"]
+	"1-40" -> "sim_0041.mat"
+	"1-12" [label="gj_sim"]
+	"policy.mat" [shape=parallelogram]
+	"policy.mat" -> "1-12"
+	"gj_log76.mat" [shape=parallelogram]
+	"gj_log76.mat" -> "1-12"
+	"sim_0013.mat" [shape=parallelogram,label="simOutputs.[13]"]
+	"1-12" -> "sim_0013.mat"
+	"1-45" [label="gj_sim"]
+	"policy.mat" [shape=parallelogram]
+	"policy.mat" -> "1-45"
+	"gj_log76.mat" [shape=parallelogram]
+	"gj_log76.mat" -> "1-45"
+	"sim_0046.mat" [shape=parallelogram,label="simOutputs.[46]"]
+	"1-45" -> "sim_0046.mat"
+	"1-7" [label="gj_sim"]
+	"policy.mat" [shape=parallelogram]
+	"policy.mat" -> "1-7"
+	"gj_log76.mat" [shape=parallelogram]
+	"gj_log76.mat" -> "1-7"
+	"sim_0008.mat" [shape=parallelogram,label="simOutputs.[8]"]
+	"1-7" -> "sim_0008.mat"
+	"1-2" [label="gj_sim"]
+	"policy.mat" [shape=parallelogram]
+	"policy.mat" -> "1-2"
+	"gj_log76.mat" [shape=parallelogram]
+	"gj_log76.mat" -> "1-2"
+	"sim_0003.mat" [shape=parallelogram,label="simOutputs.[3]"]
+	"1-2" -> "sim_0003.mat"
+	"1-38" [label="gj_sim"]
+	"policy.mat" [shape=parallelogram]
+	"policy.mat" -> "1-38"
+	"gj_log76.mat" [shape=parallelogram]
+	"gj_log76.mat" -> "1-38"
+	"sim_0039.mat" [shape=parallelogram,label="simOutputs.[39]"]
+	"1-38" -> "sim_0039.mat"
+	"1-31" [label="gj_sim"]
+	"policy.mat" [shape=parallelogram]
+	"policy.mat" -> "1-31"
+	"gj_log76.mat" [shape=parallelogram]
+	"gj_log76.mat" -> "1-31"
+	"sim_0032.mat" [shape=parallelogram,label="simOutputs.[32]"]
+	"1-31" -> "sim_0032.mat"
+	"1-47" [label="gj_sim"]
+	"policy.mat" [shape=parallelogram]
+	"policy.mat" -> "1-47"
+	"gj_log76.mat" [shape=parallelogram]
+	"gj_log76.mat" -> "1-47"
+	"sim_0048.mat" [shape=parallelogram,label="simOutputs.[48]"]
+	"1-47" -> "sim_0048.mat"
+	"1-21" [label="gj_sim"]
+	"policy.mat" [shape=parallelogram]
+	"policy.mat" -> "1-21"
+	"gj_log76.mat" [shape=parallelogram]
+	"gj_log76.mat" -> "1-21"
+	"sim_0022.mat" [shape=parallelogram,label="simOutputs.[22]"]
+	"1-21" -> "sim_0022.mat"
+	"1-48" [label="gj_sim"]
+	"policy.mat" [shape=parallelogram]
+	"policy.mat" -> "1-48"
+	"gj_log76.mat" [shape=parallelogram]
+	"gj_log76.mat" -> "1-48"
+	"sim_0049.mat" [shape=parallelogram,label="simOutputs.[49]"]
+	"1-48" -> "sim_0049.mat"
+	"1-10" [label="gj_sim"]
+	"policy.mat" [shape=parallelogram]
+	"policy.mat" -> "1-10"
+	"gj_log76.mat" [shape=parallelogram]
+	"gj_log76.mat" -> "1-10"
+	"sim_0011.mat" [shape=parallelogram,label="simOutputs.[11]"]
+	"1-10" -> "sim_0011.mat"
+	"1-22" [label="gj_sim"]
+	"policy.mat" [shape=parallelogram]
+	"policy.mat" -> "1-22"
+	"gj_log76.mat" [shape=parallelogram]
+	"gj_log76.mat" -> "1-22"
+	"sim_0023.mat" [shape=parallelogram,label="simOutputs.[23]"]
+	"1-22" -> "sim_0023.mat"
+	"1-8" [label="gj_sim"]
+	"policy.mat" [shape=parallelogram]
+	"policy.mat" -> "1-8"
+	"gj_log76.mat" [shape=parallelogram]
+	"gj_log76.mat" -> "1-8"
+	"sim_0009.mat" [shape=parallelogram,label="simOutputs.[9]"]
+	"1-8" -> "sim_0009.mat"
+	"2" [label="gj_collect"]
+	"sim_0029.mat" [shape=parallelogram]
+	"sim_0029.mat" -> "2"
+	"sim_0049.mat" [shape=parallelogram]
+	"sim_0049.mat" -> "2"
+	"sim_0039.mat" [shape=parallelogram]
+	"sim_0039.mat" -> "2"
+	"sim_0024.mat" [shape=parallelogram]
+	"sim_0024.mat" -> "2"
+	"sim_0050.mat" [shape=parallelogram]
+	"sim_0050.mat" -> "2"
+	"sim_0023.mat" [shape=parallelogram]
+	"sim_0023.mat" -> "2"
+	"sim_0034.mat" [shape=parallelogram]
+	"sim_0034.mat" -> "2"
+	"sim_0030.mat" [shape=parallelogram]
+	"sim_0030.mat" -> "2"
+	"sim_0018.mat" [shape=parallelogram]
+	"sim_0018.mat" -> "2"
+	"sim_0020.mat" [shape=parallelogram]
+	"sim_0020.mat" -> "2"
+	"sim_0042.mat" [shape=parallelogram]
+	"sim_0042.mat" -> "2"
+	"sim_0025.mat" [shape=parallelogram]
+	"sim_0025.mat" -> "2"
+	"sim_0032.mat" [shape=parallelogram]
+	"sim_0032.mat" -> "2"
+	"sim_0043.mat" [shape=parallelogram]
+	"sim_0043.mat" -> "2"
+	"sim_0035.mat" [shape=parallelogram]
+	"sim_0035.mat" -> "2"
+	"sim_0013.mat" [shape=parallelogram]
+	"sim_0013.mat" -> "2"
+	"sim_0026.mat" [shape=parallelogram]
+	"sim_0026.mat" -> "2"
+	"sim_0044.mat" [shape=parallelogram]
+	"sim_0044.mat" -> "2"
+	"sim_0009.mat" [shape=parallelogram]
+	"sim_0009.mat" -> "2"
+	"sim_0019.mat" [shape=parallelogram]
+	"sim_0019.mat" -> "2"
+	"sim_0028.mat" [shape=parallelogram]
+	"sim_0028.mat" -> "2"
+	"sim_0003.mat" [shape=parallelogram]
+	"sim_0003.mat" -> "2"
+	"sim_0041.mat" [shape=parallelogram]
+	"sim_0041.mat" -> "2"
+	"sim_0027.mat" [shape=parallelogram]
+	"sim_0027.mat" -> "2"
+	"sim_0017.mat" [shape=parallelogram]
+	"sim_0017.mat" -> "2"
+	"sim_0014.mat" [shape=parallelogram]
+	"sim_0014.mat" -> "2"
+	"sim_0036.mat" [shape=parallelogram]
+	"sim_0036.mat" -> "2"
+	"sim_0001.mat" [shape=parallelogram]
+	"sim_0001.mat" -> "2"
+	"sim_0006.mat" [shape=parallelogram]
+	"sim_0006.mat" -> "2"
+	"sim_0005.mat" [shape=parallelogram]
+	"sim_0005.mat" -> "2"
+	"sim_0016.mat" [shape=parallelogram]
+	"sim_0016.mat" -> "2"
+	"sim_0046.mat" [shape=parallelogram]
+	"sim_0046.mat" -> "2"
+	"sim_0037.mat" [shape=parallelogram]
+	"sim_0037.mat" -> "2"
+	"sim_0033.mat" [shape=parallelogram]
+	"sim_0033.mat" -> "2"
+	"sim_0015.mat" [shape=parallelogram]
+	"sim_0015.mat" -> "2"
+	"sim_0011.mat" [shape=parallelogram]
+	"sim_0011.mat" -> "2"
+	"sim_0004.mat" [shape=parallelogram]
+	"sim_0004.mat" -> "2"
+	"sim_0040.mat" [shape=parallelogram]
+	"sim_0040.mat" -> "2"
+	"sim_0012.mat" [shape=parallelogram]
+	"sim_0012.mat" -> "2"
+	"sim_0045.mat" [shape=parallelogram]
+	"sim_0045.mat" -> "2"
+	"sim_0007.mat" [shape=parallelogram]
+	"sim_0007.mat" -> "2"
+	"sim_0002.mat" [shape=parallelogram]
+	"sim_0002.mat" -> "2"
+	"sim_0038.mat" [shape=parallelogram]
+	"sim_0038.mat" -> "2"
+	"sim_0031.mat" [shape=parallelogram]
+	"sim_0031.mat" -> "2"
+	"sim_0047.mat" [shape=parallelogram]
+	"sim_0047.mat" -> "2"
+	"sim_0021.mat" [shape=parallelogram]
+	"sim_0021.mat" -> "2"
+	"sim_0048.mat" [shape=parallelogram]
+	"sim_0048.mat" -> "2"
+	"sim_0010.mat" [shape=parallelogram]
+	"sim_0010.mat" -> "2"
+	"sim_0022.mat" [shape=parallelogram]
+	"sim_0022.mat" -> "2"
+	"sim_0008.mat" [shape=parallelogram]
+	"sim_0008.mat" -> "2"
+	"mergedSim.mat" [shape=parallelogram,label="mergedSim"]
+	"2" -> "mergedSim.mat"
+	"3" [label="gj_transition"]
+	"policy.mat" [shape=parallelogram]
+	"policy.mat" -> "3"
+	"gj_log76.mat" [shape=parallelogram]
+	"gj_log76.mat" -> "3"
+	"history.mat" [shape=parallelogram,label="historyFile"]
+	"3" -> "history.mat"
+	"4" [label="gj_xi"]
+	"history.mat" [shape=parallelogram]
+	"history.mat" -> "4"
+	"mergedSim.mat" [shape=parallelogram]
+	"mergedSim.mat" -> "4"
+	"thai_gro.mat" [shape=parallelogram]
+	"thai_gro.mat" -> "4"
+	"thai_dat.mat" [shape=parallelogram]
+	"thai_dat.mat" -> "4"
+	"criterion.mat" [shape=parallelogram,label="criterionFile"]
+	"4" -> "criterion.mat"
+}

@@ -1,0 +1,9 @@
+Exception in gj_transition:
+Arguments: [policy-20080713-1312-j6507glc.mat, history-20080713-1312-j6507glc.mat]
+Host: age3-local
+Directory: gj-master-decomposed-20080713-1312-j6507glc/jobs/l/gj_transition-lhvtpgvi
+stderr.txt: ??? Error using ==> mrdivide
+Matrix dimensions must agree.
+
+
+MATLAB:dimagree

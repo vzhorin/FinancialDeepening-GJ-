@@ -1,0 +1,7 @@
+age3-local	gj_master	/home/econworks/Models/FinancialDeepening-GJ/bin/gj_master_compiled-age3-local.sh INSTALLED INTEL32::LINUX null
+
+age3-local	gj_main		/home/econworks/Models/FinancialDeepening-GJ/bin/gj_main_compiled-age3-local.sh	INSTALLED INTEL32::LINUX null
+#age3-local	gj_sim		/home/econworks/Models/FinancialDeepening-GJ/bin/gj_simul_compiled-age3-local.sh	INSTALLED INTEL32::LINUX null
+age3-local	gj_collect		/home/econworks/Models/FinancialDeepening-GJ/bin/gj_collect_compiled-age3-local.sh	INSTALLED INTEL32::LINUX null
+age3-local	gj_xi		/home/econworks/Models/FinancialDeepening-GJ/bin/gj_xi_compiled-age3-local.sh	INSTALLED INTEL32::LINUX null
+age3-local	gj_transition		/home/econworks/Models/FinancialDeepening-GJ/bin/gj_transition_compiled-age3-local.sh	INSTALLED INTEL32::LINUX null

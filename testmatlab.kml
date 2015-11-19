@@ -1,0 +1,95 @@
+<project>
+  <import file="sys.xml"/>
+  <import file="scheduler.xml"/>
+  <import file="rlog.xml"/>
+  <import file="vdl.k"/>
+  <types>
+    <xs:schema targetNamespace="http://ci.uchicago.edu/swift/2007/07/swiftscript" xmlns="http://ci.uchicago.edu/swift/2007/07/swiftscript" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <xs:simpleType name="file">
+        <xs:restriction base="string"/>
+      </xs:simpleType>
+    </xs:schema>
+  </types>
+  <element name="gj_transition" arguments="histFile,policyFile,logFile">
+    <vdl:typecheck argname="histFile" var="{histFile}" type="file"/>
+    <vdl:typecheck argname="policyFile" var="{policyFile}" type="file"/>
+    <vdl:typecheck argname="logFile" var="{logFile}" type="file"/>
+    <log>
+      <string>info</string>
+      <string>PROCEDURE thread={#thread} name=gj_transition</string>
+    </log>
+    <parameterlog>
+    <string>input</string>
+    <string>policyFile</string>
+    <vdl:getdatasetprovenanceid var="{policyFile}" />
+    </parameterlog>
+    <parameterlog>
+    <string>input</string>
+    <string>logFile</string>
+    <vdl:getdatasetprovenanceid var="{logFile}" />
+    </parameterlog>
+    <parameterlog>
+    <string>output</string>
+    <string>histFile</string>
+    <vdl:getdatasetprovenanceid var="{histFile}" />
+    </parameterlog>
+    <vdl:execute>
+      <vdl:tr>gj_transition</vdl:tr>
+      <vdl:stagein var="{policyFile}"/>
+      <vdl:stagein var="{logFile}"/>
+      <vdl:stageout var="{histFile}"/>
+      <vdl:arguments>
+        <swiftscript:filename>
+         <variable>policyFile</variable> 
+        </swiftscript:filename>
+        <swiftscript:filename>
+         <variable>histFile</variable> 
+        </swiftscript:filename>
+      </vdl:arguments>
+
+    </vdl:execute>
+    <vdl:closedataset var="{histFile}"/></element>
+
+  <set name="policyFile">
+    <vdl:new type="file" dbgname="policyFile">
+      <vdl:mapping descriptor="single_file_mapper">
+        <vdl:parameter name="file"><vdl:new type="string" value="policy.mat" /></vdl:parameter>
+        <vdl:parameter name="input" value="true" />
+      </vdl:mapping>
+    </vdl:new>
+  </set>
+  <set name="logFile">
+    <vdl:new type="file" dbgname="logFile">
+      <vdl:mapping descriptor="single_file_mapper">
+        <vdl:parameter name="file"><vdl:new type="string" value="inputs/gj_log76.mat" /></vdl:parameter>
+        <vdl:parameter name="input" value="true" />
+      </vdl:mapping>
+    </vdl:new>
+  </set>
+  <set name="historyFile">
+    <vdl:new type="file" dbgname="historyFile" waitfor="88000">
+      <vdl:mapping descriptor="single_file_mapper">
+        <vdl:parameter name="file"><vdl:new type="string" value="history.mat" /></vdl:parameter>
+      </vdl:mapping>
+    </vdl:new>
+  </set>
+  <restartLog>
+  	<vdl:mains>
+<!-- TODO can move into vdl:mains so karajan files are smaller -->
+		<vdl:startprogressticker />
+		<vdl:mainp>
+		      <sequential>
+		        <gj_transition>
+		          <parallel>
+		            <variable>historyFile</variable>
+		            <variable>policyFile</variable>
+		            <variable>logFile</variable>
+		          </parallel>
+		        </gj_transition>
+		          <partialCloseDataset var="{historyFile}" closeID="88000" />
+		      </sequential>
+		</vdl:mainp>
+		<vdl:stopprogressticker />
+	</vdl:mains>
+  </restartLog>  
+</project>

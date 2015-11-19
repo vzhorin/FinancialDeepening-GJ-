@@ -1,0 +1,700 @@
+digraph SwiftProvenance {
+	graph [splines="compound", rankdir="LR"];
+	node [color="seagreen", style="filled"];
+	"3-0-0-0-0-1" [label="gj_main"]
+	"policy-1-5-0.98-1.054-0.97.mat" [shape=parallelogram,label="policyFile"]
+	"3-0-0-0-0-1" -> "policy-1-5-0.98-1.054-0.97.mat"
+	"3-0-0-0-0-2-3" [label="gj_sim"]
+	"policy-1-5-0.98-1.054-0.97.mat" [shape=parallelogram]
+	"policy-1-5-0.98-1.054-0.97.mat" -> "3-0-0-0-0-2-3"
+	"gj_log76.mat" [shape=parallelogram]
+	"gj_log76.mat" -> "3-0-0-0-0-2-3"
+	"sim-1-5-0.98-1.054-0.97_0004.mat" [shape=parallelogram,label="simOutputs.[4]"]
+	"3-0-0-0-0-2-3" -> "sim-1-5-0.98-1.054-0.97_0004.mat"
+	"3-0-0-0-0-2-2" [label="gj_sim"]
+	"policy-1-5-0.98-1.054-0.97.mat" [shape=parallelogram]
+	"policy-1-5-0.98-1.054-0.97.mat" -> "3-0-0-0-0-2-2"
+	"gj_log76.mat" [shape=parallelogram]
+	"gj_log76.mat" -> "3-0-0-0-0-2-2"
+	"sim-1-5-0.98-1.054-0.97_0003.mat" [shape=parallelogram,label="simOutputs.[3]"]
+	"3-0-0-0-0-2-2" -> "sim-1-5-0.98-1.054-0.97_0003.mat"
+	"3-0-0-0-0-2-1" [label="gj_sim"]
+	"policy-1-5-0.98-1.054-0.97.mat" [shape=parallelogram]
+	"policy-1-5-0.98-1.054-0.97.mat" -> "3-0-0-0-0-2-1"
+	"gj_log76.mat" [shape=parallelogram]
+	"gj_log76.mat" -> "3-0-0-0-0-2-1"
+	"sim-1-5-0.98-1.054-0.97_0002.mat" [shape=parallelogram,label="simOutputs.[2]"]
+	"3-0-0-0-0-2-1" -> "sim-1-5-0.98-1.054-0.97_0002.mat"
+	"3-0-0-0-0-2-0" [label="gj_sim"]
+	"policy-1-5-0.98-1.054-0.97.mat" [shape=parallelogram]
+	"policy-1-5-0.98-1.054-0.97.mat" -> "3-0-0-0-0-2-0"
+	"gj_log76.mat" [shape=parallelogram]
+	"gj_log76.mat" -> "3-0-0-0-0-2-0"
+	"sim-1-5-0.98-1.054-0.97_0001.mat" [shape=parallelogram,label="simOutputs.[1]"]
+	"3-0-0-0-0-2-0" -> "sim-1-5-0.98-1.054-0.97_0001.mat"
+	"3-0-0-0-0-2-6" [label="gj_sim"]
+	"policy-1-5-0.98-1.054-0.97.mat" [shape=parallelogram]
+	"policy-1-5-0.98-1.054-0.97.mat" -> "3-0-0-0-0-2-6"
+	"gj_log76.mat" [shape=parallelogram]
+	"gj_log76.mat" -> "3-0-0-0-0-2-6"
+	"sim-1-5-0.98-1.054-0.97_0007.mat" [shape=parallelogram,label="simOutputs.[7]"]
+	"3-0-0-0-0-2-6" -> "sim-1-5-0.98-1.054-0.97_0007.mat"
+	"3-0-0-0-0-2-5" [label="gj_sim"]
+	"policy-1-5-0.98-1.054-0.97.mat" [shape=parallelogram]
+	"policy-1-5-0.98-1.054-0.97.mat" -> "3-0-0-0-0-2-5"
+	"gj_log76.mat" [shape=parallelogram]
+	"gj_log76.mat" -> "3-0-0-0-0-2-5"
+	"sim-1-5-0.98-1.054-0.97_0006.mat" [shape=parallelogram,label="simOutputs.[6]"]
+	"3-0-0-0-0-2-5" -> "sim-1-5-0.98-1.054-0.97_0006.mat"
+	"3-0-0-0-0-2-4" [label="gj_sim"]
+	"policy-1-5-0.98-1.054-0.97.mat" [shape=parallelogram]
+	"policy-1-5-0.98-1.054-0.97.mat" -> "3-0-0-0-0-2-4"
+	"gj_log76.mat" [shape=parallelogram]
+	"gj_log76.mat" -> "3-0-0-0-0-2-4"
+	"sim-1-5-0.98-1.054-0.97_0005.mat" [shape=parallelogram,label="simOutputs.[5]"]
+	"3-0-0-0-0-2-4" -> "sim-1-5-0.98-1.054-0.97_0005.mat"
+	"3-0-0-0-0-3" [label="gj_collect"]
+	"sim-1-5-0.98-1.054-0.97_0003.mat" [shape=parallelogram]
+	"sim-1-5-0.98-1.054-0.97_0003.mat" -> "3-0-0-0-0-3"
+	"sim-1-5-0.98-1.054-0.97_0002.mat" [shape=parallelogram]
+	"sim-1-5-0.98-1.054-0.97_0002.mat" -> "3-0-0-0-0-3"
+	"sim-1-5-0.98-1.054-0.97_0001.mat" [shape=parallelogram]
+	"sim-1-5-0.98-1.054-0.97_0001.mat" -> "3-0-0-0-0-3"
+	"sim-1-5-0.98-1.054-0.97_0007.mat" [shape=parallelogram]
+	"sim-1-5-0.98-1.054-0.97_0007.mat" -> "3-0-0-0-0-3"
+	"sim-1-5-0.98-1.054-0.97_0006.mat" [shape=parallelogram]
+	"sim-1-5-0.98-1.054-0.97_0006.mat" -> "3-0-0-0-0-3"
+	"sim-1-5-0.98-1.054-0.97_0005.mat" [shape=parallelogram]
+	"sim-1-5-0.98-1.054-0.97_0005.mat" -> "3-0-0-0-0-3"
+	"sim-1-5-0.98-1.054-0.97_0004.mat" [shape=parallelogram]
+	"sim-1-5-0.98-1.054-0.97_0004.mat" -> "3-0-0-0-0-3"
+	"mergedSim-1-5-0.98-1.054-0.97.mat" [shape=parallelogram,label="mergedSim"]
+	"3-0-0-0-0-3" -> "mergedSim-1-5-0.98-1.054-0.97.mat"
+	"3-0-0-0-0-4" [label="gj_transition"]
+	"policy-1-5-0.98-1.054-0.97.mat" [shape=parallelogram]
+	"policy-1-5-0.98-1.054-0.97.mat" -> "3-0-0-0-0-4"
+	"gj_log76.mat" [shape=parallelogram]
+	"gj_log76.mat" -> "3-0-0-0-0-4"
+	"history-1-5-0.98-1.054-0.97.mat" [shape=parallelogram,label="historyFile"]
+	"3-0-0-0-0-4" -> "history-1-5-0.98-1.054-0.97.mat"
+	"3-0-0-0-0-5" [label="gj_xi"]
+	"history-1-5-0.98-1.054-0.97.mat" [shape=parallelogram]
+	"history-1-5-0.98-1.054-0.97.mat" -> "3-0-0-0-0-5"
+	"mergedSim-1-5-0.98-1.054-0.97.mat" [shape=parallelogram]
+	"mergedSim-1-5-0.98-1.054-0.97.mat" -> "3-0-0-0-0-5"
+	"thai_gro.mat" [shape=parallelogram]
+	"thai_gro.mat" -> "3-0-0-0-0-5"
+	"thai_dat.mat" [shape=parallelogram]
+	"thai_dat.mat" -> "3-0-0-0-0-5"
+	"criterion-1-5-0.98-1.054-0.97.mat" [shape=parallelogram,label="criterionFile"]
+	"3-0-0-0-0-5" -> "criterion-1-5-0.98-1.054-0.97.mat"
+	"2-0-0-0-0-1" [label="gj_main"]
+	"policy-1-5-0.98-1.054-0.965.mat" [shape=parallelogram,label="policyFile"]
+	"2-0-0-0-0-1" -> "policy-1-5-0.98-1.054-0.965.mat"
+	"2-0-0-0-0-2-3" [label="gj_sim"]
+	"policy-1-5-0.98-1.054-0.965.mat" [shape=parallelogram]
+	"policy-1-5-0.98-1.054-0.965.mat" -> "2-0-0-0-0-2-3"
+	"gj_log76.mat" [shape=parallelogram]
+	"gj_log76.mat" -> "2-0-0-0-0-2-3"
+	"sim-1-5-0.98-1.054-0.965_0004.mat" [shape=parallelogram,label="simOutputs.[4]"]
+	"2-0-0-0-0-2-3" -> "sim-1-5-0.98-1.054-0.965_0004.mat"
+	"2-0-0-0-0-2-2" [label="gj_sim"]
+	"policy-1-5-0.98-1.054-0.965.mat" [shape=parallelogram]
+	"policy-1-5-0.98-1.054-0.965.mat" -> "2-0-0-0-0-2-2"
+	"gj_log76.mat" [shape=parallelogram]
+	"gj_log76.mat" -> "2-0-0-0-0-2-2"
+	"sim-1-5-0.98-1.054-0.965_0003.mat" [shape=parallelogram,label="simOutputs.[3]"]
+	"2-0-0-0-0-2-2" -> "sim-1-5-0.98-1.054-0.965_0003.mat"
+	"2-0-0-0-0-2-1" [label="gj_sim"]
+	"policy-1-5-0.98-1.054-0.965.mat" [shape=parallelogram]
+	"policy-1-5-0.98-1.054-0.965.mat" -> "2-0-0-0-0-2-1"
+	"gj_log76.mat" [shape=parallelogram]
+	"gj_log76.mat" -> "2-0-0-0-0-2-1"
+	"sim-1-5-0.98-1.054-0.965_0002.mat" [shape=parallelogram,label="simOutputs.[2]"]
+	"2-0-0-0-0-2-1" -> "sim-1-5-0.98-1.054-0.965_0002.mat"
+	"2-0-0-0-0-2-0" [label="gj_sim"]
+	"policy-1-5-0.98-1.054-0.965.mat" [shape=parallelogram]
+	"policy-1-5-0.98-1.054-0.965.mat" -> "2-0-0-0-0-2-0"
+	"gj_log76.mat" [shape=parallelogram]
+	"gj_log76.mat" -> "2-0-0-0-0-2-0"
+	"sim-1-5-0.98-1.054-0.965_0001.mat" [shape=parallelogram,label="simOutputs.[1]"]
+	"2-0-0-0-0-2-0" -> "sim-1-5-0.98-1.054-0.965_0001.mat"
+	"2-0-0-0-0-2-6" [label="gj_sim"]
+	"policy-1-5-0.98-1.054-0.965.mat" [shape=parallelogram]
+	"policy-1-5-0.98-1.054-0.965.mat" -> "2-0-0-0-0-2-6"
+	"gj_log76.mat" [shape=parallelogram]
+	"gj_log76.mat" -> "2-0-0-0-0-2-6"
+	"sim-1-5-0.98-1.054-0.965_0007.mat" [shape=parallelogram,label="simOutputs.[7]"]
+	"2-0-0-0-0-2-6" -> "sim-1-5-0.98-1.054-0.965_0007.mat"
+	"2-0-0-0-0-2-5" [label="gj_sim"]
+	"policy-1-5-0.98-1.054-0.965.mat" [shape=parallelogram]
+	"policy-1-5-0.98-1.054-0.965.mat" -> "2-0-0-0-0-2-5"
+	"gj_log76.mat" [shape=parallelogram]
+	"gj_log76.mat" -> "2-0-0-0-0-2-5"
+	"sim-1-5-0.98-1.054-0.965_0006.mat" [shape=parallelogram,label="simOutputs.[6]"]
+	"2-0-0-0-0-2-5" -> "sim-1-5-0.98-1.054-0.965_0006.mat"
+	"2-0-0-0-0-2-4" [label="gj_sim"]
+	"policy-1-5-0.98-1.054-0.965.mat" [shape=parallelogram]
+	"policy-1-5-0.98-1.054-0.965.mat" -> "2-0-0-0-0-2-4"
+	"gj_log76.mat" [shape=parallelogram]
+	"gj_log76.mat" -> "2-0-0-0-0-2-4"
+	"sim-1-5-0.98-1.054-0.965_0005.mat" [shape=parallelogram,label="simOutputs.[5]"]
+	"2-0-0-0-0-2-4" -> "sim-1-5-0.98-1.054-0.965_0005.mat"
+	"2-0-0-0-0-3" [label="gj_collect"]
+	"sim-1-5-0.98-1.054-0.965_0003.mat" [shape=parallelogram]
+	"sim-1-5-0.98-1.054-0.965_0003.mat" -> "2-0-0-0-0-3"
+	"sim-1-5-0.98-1.054-0.965_0002.mat" [shape=parallelogram]
+	"sim-1-5-0.98-1.054-0.965_0002.mat" -> "2-0-0-0-0-3"
+	"sim-1-5-0.98-1.054-0.965_0001.mat" [shape=parallelogram]
+	"sim-1-5-0.98-1.054-0.965_0001.mat" -> "2-0-0-0-0-3"
+	"sim-1-5-0.98-1.054-0.965_0007.mat" [shape=parallelogram]
+	"sim-1-5-0.98-1.054-0.965_0007.mat" -> "2-0-0-0-0-3"
+	"sim-1-5-0.98-1.054-0.965_0006.mat" [shape=parallelogram]
+	"sim-1-5-0.98-1.054-0.965_0006.mat" -> "2-0-0-0-0-3"
+	"sim-1-5-0.98-1.054-0.965_0005.mat" [shape=parallelogram]
+	"sim-1-5-0.98-1.054-0.965_0005.mat" -> "2-0-0-0-0-3"
+	"sim-1-5-0.98-1.054-0.965_0004.mat" [shape=parallelogram]
+	"sim-1-5-0.98-1.054-0.965_0004.mat" -> "2-0-0-0-0-3"
+	"mergedSim-1-5-0.98-1.054-0.965.mat" [shape=parallelogram,label="mergedSim"]
+	"2-0-0-0-0-3" -> "mergedSim-1-5-0.98-1.054-0.965.mat"
+	"2-0-0-0-0-4" [label="gj_transition"]
+	"policy-1-5-0.98-1.054-0.965.mat" [shape=parallelogram]
+	"policy-1-5-0.98-1.054-0.965.mat" -> "2-0-0-0-0-4"
+	"gj_log76.mat" [shape=parallelogram]
+	"gj_log76.mat" -> "2-0-0-0-0-4"
+	"history-1-5-0.98-1.054-0.965.mat" [shape=parallelogram,label="historyFile"]
+	"2-0-0-0-0-4" -> "history-1-5-0.98-1.054-0.965.mat"
+	"2-0-0-0-0-5" [label="gj_xi"]
+	"history-1-5-0.98-1.054-0.965.mat" [shape=parallelogram]
+	"history-1-5-0.98-1.054-0.965.mat" -> "2-0-0-0-0-5"
+	"mergedSim-1-5-0.98-1.054-0.965.mat" [shape=parallelogram]
+	"mergedSim-1-5-0.98-1.054-0.965.mat" -> "2-0-0-0-0-5"
+	"thai_gro.mat" [shape=parallelogram]
+	"thai_gro.mat" -> "2-0-0-0-0-5"
+	"thai_dat.mat" [shape=parallelogram]
+	"thai_dat.mat" -> "2-0-0-0-0-5"
+	"criterion-1-5-0.98-1.054-0.965.mat" [shape=parallelogram,label="criterionFile"]
+	"2-0-0-0-0-5" -> "criterion-1-5-0.98-1.054-0.965.mat"
+	"1-0-0-0-0-1" [label="gj_main"]
+	"policy-1-5-0.98-1.054-0.96.mat" [shape=parallelogram,label="policyFile"]
+	"1-0-0-0-0-1" -> "policy-1-5-0.98-1.054-0.96.mat"
+	"1-0-0-0-0-2-3" [label="gj_sim"]
+	"policy-1-5-0.98-1.054-0.96.mat" [shape=parallelogram]
+	"policy-1-5-0.98-1.054-0.96.mat" -> "1-0-0-0-0-2-3"
+	"gj_log76.mat" [shape=parallelogram]
+	"gj_log76.mat" -> "1-0-0-0-0-2-3"
+	"sim-1-5-0.98-1.054-0.96_0004.mat" [shape=parallelogram,label="simOutputs.[4]"]
+	"1-0-0-0-0-2-3" -> "sim-1-5-0.98-1.054-0.96_0004.mat"
+	"1-0-0-0-0-2-2" [label="gj_sim"]
+	"policy-1-5-0.98-1.054-0.96.mat" [shape=parallelogram]
+	"policy-1-5-0.98-1.054-0.96.mat" -> "1-0-0-0-0-2-2"
+	"gj_log76.mat" [shape=parallelogram]
+	"gj_log76.mat" -> "1-0-0-0-0-2-2"
+	"sim-1-5-0.98-1.054-0.96_0003.mat" [shape=parallelogram,label="simOutputs.[3]"]
+	"1-0-0-0-0-2-2" -> "sim-1-5-0.98-1.054-0.96_0003.mat"
+	"1-0-0-0-0-2-1" [label="gj_sim"]
+	"policy-1-5-0.98-1.054-0.96.mat" [shape=parallelogram]
+	"policy-1-5-0.98-1.054-0.96.mat" -> "1-0-0-0-0-2-1"
+	"gj_log76.mat" [shape=parallelogram]
+	"gj_log76.mat" -> "1-0-0-0-0-2-1"
+	"sim-1-5-0.98-1.054-0.96_0002.mat" [shape=parallelogram,label="simOutputs.[2]"]
+	"1-0-0-0-0-2-1" -> "sim-1-5-0.98-1.054-0.96_0002.mat"
+	"1-0-0-0-0-2-0" [label="gj_sim"]
+	"policy-1-5-0.98-1.054-0.96.mat" [shape=parallelogram]
+	"policy-1-5-0.98-1.054-0.96.mat" -> "1-0-0-0-0-2-0"
+	"gj_log76.mat" [shape=parallelogram]
+	"gj_log76.mat" -> "1-0-0-0-0-2-0"
+	"sim-1-5-0.98-1.054-0.96_0001.mat" [shape=parallelogram,label="simOutputs.[1]"]
+	"1-0-0-0-0-2-0" -> "sim-1-5-0.98-1.054-0.96_0001.mat"
+	"1-0-0-0-0-2-6" [label="gj_sim"]
+	"policy-1-5-0.98-1.054-0.96.mat" [shape=parallelogram]
+	"policy-1-5-0.98-1.054-0.96.mat" -> "1-0-0-0-0-2-6"
+	"gj_log76.mat" [shape=parallelogram]
+	"gj_log76.mat" -> "1-0-0-0-0-2-6"
+	"sim-1-5-0.98-1.054-0.96_0007.mat" [shape=parallelogram,label="simOutputs.[7]"]
+	"1-0-0-0-0-2-6" -> "sim-1-5-0.98-1.054-0.96_0007.mat"
+	"1-0-0-0-0-2-5" [label="gj_sim"]
+	"policy-1-5-0.98-1.054-0.96.mat" [shape=parallelogram]
+	"policy-1-5-0.98-1.054-0.96.mat" -> "1-0-0-0-0-2-5"
+	"gj_log76.mat" [shape=parallelogram]
+	"gj_log76.mat" -> "1-0-0-0-0-2-5"
+	"sim-1-5-0.98-1.054-0.96_0006.mat" [shape=parallelogram,label="simOutputs.[6]"]
+	"1-0-0-0-0-2-5" -> "sim-1-5-0.98-1.054-0.96_0006.mat"
+	"1-0-0-0-0-2-4" [label="gj_sim"]
+	"policy-1-5-0.98-1.054-0.96.mat" [shape=parallelogram]
+	"policy-1-5-0.98-1.054-0.96.mat" -> "1-0-0-0-0-2-4"
+	"gj_log76.mat" [shape=parallelogram]
+	"gj_log76.mat" -> "1-0-0-0-0-2-4"
+	"sim-1-5-0.98-1.054-0.96_0005.mat" [shape=parallelogram,label="simOutputs.[5]"]
+	"1-0-0-0-0-2-4" -> "sim-1-5-0.98-1.054-0.96_0005.mat"
+	"1-0-0-0-0-3" [label="gj_collect"]
+	"sim-1-5-0.98-1.054-0.96_0003.mat" [shape=parallelogram]
+	"sim-1-5-0.98-1.054-0.96_0003.mat" -> "1-0-0-0-0-3"
+	"sim-1-5-0.98-1.054-0.96_0002.mat" [shape=parallelogram]
+	"sim-1-5-0.98-1.054-0.96_0002.mat" -> "1-0-0-0-0-3"
+	"sim-1-5-0.98-1.054-0.96_0001.mat" [shape=parallelogram]
+	"sim-1-5-0.98-1.054-0.96_0001.mat" -> "1-0-0-0-0-3"
+	"sim-1-5-0.98-1.054-0.96_0007.mat" [shape=parallelogram]
+	"sim-1-5-0.98-1.054-0.96_0007.mat" -> "1-0-0-0-0-3"
+	"sim-1-5-0.98-1.054-0.96_0006.mat" [shape=parallelogram]
+	"sim-1-5-0.98-1.054-0.96_0006.mat" -> "1-0-0-0-0-3"
+	"sim-1-5-0.98-1.054-0.96_0005.mat" [shape=parallelogram]
+	"sim-1-5-0.98-1.054-0.96_0005.mat" -> "1-0-0-0-0-3"
+	"sim-1-5-0.98-1.054-0.96_0004.mat" [shape=parallelogram]
+	"sim-1-5-0.98-1.054-0.96_0004.mat" -> "1-0-0-0-0-3"
+	"mergedSim-1-5-0.98-1.054-0.96.mat" [shape=parallelogram,label="mergedSim"]
+	"1-0-0-0-0-3" -> "mergedSim-1-5-0.98-1.054-0.96.mat"
+	"1-0-0-0-0-4" [label="gj_transition"]
+	"policy-1-5-0.98-1.054-0.96.mat" [shape=parallelogram]
+	"policy-1-5-0.98-1.054-0.96.mat" -> "1-0-0-0-0-4"
+	"gj_log76.mat" [shape=parallelogram]
+	"gj_log76.mat" -> "1-0-0-0-0-4"
+	"history-1-5-0.98-1.054-0.96.mat" [shape=parallelogram,label="historyFile"]
+	"1-0-0-0-0-4" -> "history-1-5-0.98-1.054-0.96.mat"
+	"1-0-0-0-0-5" [label="gj_xi"]
+	"history-1-5-0.98-1.054-0.96.mat" [shape=parallelogram]
+	"history-1-5-0.98-1.054-0.96.mat" -> "1-0-0-0-0-5"
+	"mergedSim-1-5-0.98-1.054-0.96.mat" [shape=parallelogram]
+	"mergedSim-1-5-0.98-1.054-0.96.mat" -> "1-0-0-0-0-5"
+	"thai_gro.mat" [shape=parallelogram]
+	"thai_gro.mat" -> "1-0-0-0-0-5"
+	"thai_dat.mat" [shape=parallelogram]
+	"thai_dat.mat" -> "1-0-0-0-0-5"
+	"criterion-1-5-0.98-1.054-0.96.mat" [shape=parallelogram,label="criterionFile"]
+	"1-0-0-0-0-5" -> "criterion-1-5-0.98-1.054-0.96.mat"
+	"0-0-0-0-0-1" [label="gj_main"]
+	"policy-1-5-0.98-1.054-0.955.mat" [shape=parallelogram,label="policyFile"]
+	"0-0-0-0-0-1" -> "policy-1-5-0.98-1.054-0.955.mat"
+	"0-0-0-0-0-2-3" [label="gj_sim"]
+	"policy-1-5-0.98-1.054-0.955.mat" [shape=parallelogram]
+	"policy-1-5-0.98-1.054-0.955.mat" -> "0-0-0-0-0-2-3"
+	"gj_log76.mat" [shape=parallelogram]
+	"gj_log76.mat" -> "0-0-0-0-0-2-3"
+	"sim-1-5-0.98-1.054-0.955_0004.mat" [shape=parallelogram,label="simOutputs.[4]"]
+	"0-0-0-0-0-2-3" -> "sim-1-5-0.98-1.054-0.955_0004.mat"
+	"0-0-0-0-0-2-2" [label="gj_sim"]
+	"policy-1-5-0.98-1.054-0.955.mat" [shape=parallelogram]
+	"policy-1-5-0.98-1.054-0.955.mat" -> "0-0-0-0-0-2-2"
+	"gj_log76.mat" [shape=parallelogram]
+	"gj_log76.mat" -> "0-0-0-0-0-2-2"
+	"sim-1-5-0.98-1.054-0.955_0003.mat" [shape=parallelogram,label="simOutputs.[3]"]
+	"0-0-0-0-0-2-2" -> "sim-1-5-0.98-1.054-0.955_0003.mat"
+	"0-0-0-0-0-2-1" [label="gj_sim"]
+	"policy-1-5-0.98-1.054-0.955.mat" [shape=parallelogram]
+	"policy-1-5-0.98-1.054-0.955.mat" -> "0-0-0-0-0-2-1"
+	"gj_log76.mat" [shape=parallelogram]
+	"gj_log76.mat" -> "0-0-0-0-0-2-1"
+	"sim-1-5-0.98-1.054-0.955_0002.mat" [shape=parallelogram,label="simOutputs.[2]"]
+	"0-0-0-0-0-2-1" -> "sim-1-5-0.98-1.054-0.955_0002.mat"
+	"0-0-0-0-0-2-0" [label="gj_sim"]
+	"policy-1-5-0.98-1.054-0.955.mat" [shape=parallelogram]
+	"policy-1-5-0.98-1.054-0.955.mat" -> "0-0-0-0-0-2-0"
+	"gj_log76.mat" [shape=parallelogram]
+	"gj_log76.mat" -> "0-0-0-0-0-2-0"
+	"sim-1-5-0.98-1.054-0.955_0001.mat" [shape=parallelogram,label="simOutputs.[1]"]
+	"0-0-0-0-0-2-0" -> "sim-1-5-0.98-1.054-0.955_0001.mat"
+	"0-0-0-0-0-2-6" [label="gj_sim"]
+	"policy-1-5-0.98-1.054-0.955.mat" [shape=parallelogram]
+	"policy-1-5-0.98-1.054-0.955.mat" -> "0-0-0-0-0-2-6"
+	"gj_log76.mat" [shape=parallelogram]
+	"gj_log76.mat" -> "0-0-0-0-0-2-6"
+	"sim-1-5-0.98-1.054-0.955_0007.mat" [shape=parallelogram,label="simOutputs.[7]"]
+	"0-0-0-0-0-2-6" -> "sim-1-5-0.98-1.054-0.955_0007.mat"
+	"0-0-0-0-0-2-5" [label="gj_sim"]
+	"policy-1-5-0.98-1.054-0.955.mat" [shape=parallelogram]
+	"policy-1-5-0.98-1.054-0.955.mat" -> "0-0-0-0-0-2-5"
+	"gj_log76.mat" [shape=parallelogram]
+	"gj_log76.mat" -> "0-0-0-0-0-2-5"
+	"sim-1-5-0.98-1.054-0.955_0006.mat" [shape=parallelogram,label="simOutputs.[6]"]
+	"0-0-0-0-0-2-5" -> "sim-1-5-0.98-1.054-0.955_0006.mat"
+	"0-0-0-0-0-2-4" [label="gj_sim"]
+	"policy-1-5-0.98-1.054-0.955.mat" [shape=parallelogram]
+	"policy-1-5-0.98-1.054-0.955.mat" -> "0-0-0-0-0-2-4"
+	"gj_log76.mat" [shape=parallelogram]
+	"gj_log76.mat" -> "0-0-0-0-0-2-4"
+	"sim-1-5-0.98-1.054-0.955_0005.mat" [shape=parallelogram,label="simOutputs.[5]"]
+	"0-0-0-0-0-2-4" -> "sim-1-5-0.98-1.054-0.955_0005.mat"
+	"0-0-0-0-0-3" [label="gj_collect"]
+	"sim-1-5-0.98-1.054-0.955_0003.mat" [shape=parallelogram]
+	"sim-1-5-0.98-1.054-0.955_0003.mat" -> "0-0-0-0-0-3"
+	"sim-1-5-0.98-1.054-0.955_0002.mat" [shape=parallelogram]
+	"sim-1-5-0.98-1.054-0.955_0002.mat" -> "0-0-0-0-0-3"
+	"sim-1-5-0.98-1.054-0.955_0001.mat" [shape=parallelogram]
+	"sim-1-5-0.98-1.054-0.955_0001.mat" -> "0-0-0-0-0-3"
+	"sim-1-5-0.98-1.054-0.955_0007.mat" [shape=parallelogram]
+	"sim-1-5-0.98-1.054-0.955_0007.mat" -> "0-0-0-0-0-3"
+	"sim-1-5-0.98-1.054-0.955_0006.mat" [shape=parallelogram]
+	"sim-1-5-0.98-1.054-0.955_0006.mat" -> "0-0-0-0-0-3"
+	"sim-1-5-0.98-1.054-0.955_0005.mat" [shape=parallelogram]
+	"sim-1-5-0.98-1.054-0.955_0005.mat" -> "0-0-0-0-0-3"
+	"sim-1-5-0.98-1.054-0.955_0004.mat" [shape=parallelogram]
+	"sim-1-5-0.98-1.054-0.955_0004.mat" -> "0-0-0-0-0-3"
+	"mergedSim-1-5-0.98-1.054-0.955.mat" [shape=parallelogram,label="mergedSim"]
+	"0-0-0-0-0-3" -> "mergedSim-1-5-0.98-1.054-0.955.mat"
+	"0-0-0-0-0-4" [label="gj_transition"]
+	"policy-1-5-0.98-1.054-0.955.mat" [shape=parallelogram]
+	"policy-1-5-0.98-1.054-0.955.mat" -> "0-0-0-0-0-4"
+	"gj_log76.mat" [shape=parallelogram]
+	"gj_log76.mat" -> "0-0-0-0-0-4"
+	"history-1-5-0.98-1.054-0.955.mat" [shape=parallelogram,label="historyFile"]
+	"0-0-0-0-0-4" -> "history-1-5-0.98-1.054-0.955.mat"
+	"0-0-0-0-0-5" [label="gj_xi"]
+	"history-1-5-0.98-1.054-0.955.mat" [shape=parallelogram]
+	"history-1-5-0.98-1.054-0.955.mat" -> "0-0-0-0-0-5"
+	"mergedSim-1-5-0.98-1.054-0.955.mat" [shape=parallelogram]
+	"mergedSim-1-5-0.98-1.054-0.955.mat" -> "0-0-0-0-0-5"
+	"thai_gro.mat" [shape=parallelogram]
+	"thai_gro.mat" -> "0-0-0-0-0-5"
+	"thai_dat.mat" [shape=parallelogram]
+	"thai_dat.mat" -> "0-0-0-0-0-5"
+	"criterion-1-5-0.98-1.054-0.955.mat" [shape=parallelogram,label="criterionFile"]
+	"0-0-0-0-0-5" -> "criterion-1-5-0.98-1.054-0.955.mat"
+	"7-0-0-0-0-1" [label="gj_main"]
+	"policy-1-5-0.98-1.054-0.99.mat" [shape=parallelogram,label="policyFile"]
+	"7-0-0-0-0-1" -> "policy-1-5-0.98-1.054-0.99.mat"
+	"7-0-0-0-0-2-3" [label="gj_sim"]
+	"policy-1-5-0.98-1.054-0.99.mat" [shape=parallelogram]
+	"policy-1-5-0.98-1.054-0.99.mat" -> "7-0-0-0-0-2-3"
+	"gj_log76.mat" [shape=parallelogram]
+	"gj_log76.mat" -> "7-0-0-0-0-2-3"
+	"sim-1-5-0.98-1.054-0.99_0004.mat" [shape=parallelogram,label="simOutputs.[4]"]
+	"7-0-0-0-0-2-3" -> "sim-1-5-0.98-1.054-0.99_0004.mat"
+	"7-0-0-0-0-2-2" [label="gj_sim"]
+	"policy-1-5-0.98-1.054-0.99.mat" [shape=parallelogram]
+	"policy-1-5-0.98-1.054-0.99.mat" -> "7-0-0-0-0-2-2"
+	"gj_log76.mat" [shape=parallelogram]
+	"gj_log76.mat" -> "7-0-0-0-0-2-2"
+	"sim-1-5-0.98-1.054-0.99_0003.mat" [shape=parallelogram,label="simOutputs.[3]"]
+	"7-0-0-0-0-2-2" -> "sim-1-5-0.98-1.054-0.99_0003.mat"
+	"7-0-0-0-0-2-1" [label="gj_sim"]
+	"policy-1-5-0.98-1.054-0.99.mat" [shape=parallelogram]
+	"policy-1-5-0.98-1.054-0.99.mat" -> "7-0-0-0-0-2-1"
+	"gj_log76.mat" [shape=parallelogram]
+	"gj_log76.mat" -> "7-0-0-0-0-2-1"
+	"sim-1-5-0.98-1.054-0.99_0002.mat" [shape=parallelogram,label="simOutputs.[2]"]
+	"7-0-0-0-0-2-1" -> "sim-1-5-0.98-1.054-0.99_0002.mat"
+	"7-0-0-0-0-2-0" [label="gj_sim"]
+	"policy-1-5-0.98-1.054-0.99.mat" [shape=parallelogram]
+	"policy-1-5-0.98-1.054-0.99.mat" -> "7-0-0-0-0-2-0"
+	"gj_log76.mat" [shape=parallelogram]
+	"gj_log76.mat" -> "7-0-0-0-0-2-0"
+	"sim-1-5-0.98-1.054-0.99_0001.mat" [shape=parallelogram,label="simOutputs.[1]"]
+	"7-0-0-0-0-2-0" -> "sim-1-5-0.98-1.054-0.99_0001.mat"
+	"7-0-0-0-0-2-6" [label="gj_sim"]
+	"policy-1-5-0.98-1.054-0.99.mat" [shape=parallelogram]
+	"policy-1-5-0.98-1.054-0.99.mat" -> "7-0-0-0-0-2-6"
+	"gj_log76.mat" [shape=parallelogram]
+	"gj_log76.mat" -> "7-0-0-0-0-2-6"
+	"sim-1-5-0.98-1.054-0.99_0007.mat" [shape=parallelogram,label="simOutputs.[7]"]
+	"7-0-0-0-0-2-6" -> "sim-1-5-0.98-1.054-0.99_0007.mat"
+	"7-0-0-0-0-2-5" [label="gj_sim"]
+	"policy-1-5-0.98-1.054-0.99.mat" [shape=parallelogram]
+	"policy-1-5-0.98-1.054-0.99.mat" -> "7-0-0-0-0-2-5"
+	"gj_log76.mat" [shape=parallelogram]
+	"gj_log76.mat" -> "7-0-0-0-0-2-5"
+	"sim-1-5-0.98-1.054-0.99_0006.mat" [shape=parallelogram,label="simOutputs.[6]"]
+	"7-0-0-0-0-2-5" -> "sim-1-5-0.98-1.054-0.99_0006.mat"
+	"7-0-0-0-0-2-4" [label="gj_sim"]
+	"policy-1-5-0.98-1.054-0.99.mat" [shape=parallelogram]
+	"policy-1-5-0.98-1.054-0.99.mat" -> "7-0-0-0-0-2-4"
+	"gj_log76.mat" [shape=parallelogram]
+	"gj_log76.mat" -> "7-0-0-0-0-2-4"
+	"sim-1-5-0.98-1.054-0.99_0005.mat" [shape=parallelogram,label="simOutputs.[5]"]
+	"7-0-0-0-0-2-4" -> "sim-1-5-0.98-1.054-0.99_0005.mat"
+	"7-0-0-0-0-3" [label="gj_collect"]
+	"sim-1-5-0.98-1.054-0.99_0003.mat" [shape=parallelogram]
+	"sim-1-5-0.98-1.054-0.99_0003.mat" -> "7-0-0-0-0-3"
+	"sim-1-5-0.98-1.054-0.99_0002.mat" [shape=parallelogram]
+	"sim-1-5-0.98-1.054-0.99_0002.mat" -> "7-0-0-0-0-3"
+	"sim-1-5-0.98-1.054-0.99_0001.mat" [shape=parallelogram]
+	"sim-1-5-0.98-1.054-0.99_0001.mat" -> "7-0-0-0-0-3"
+	"sim-1-5-0.98-1.054-0.99_0007.mat" [shape=parallelogram]
+	"sim-1-5-0.98-1.054-0.99_0007.mat" -> "7-0-0-0-0-3"
+	"sim-1-5-0.98-1.054-0.99_0006.mat" [shape=parallelogram]
+	"sim-1-5-0.98-1.054-0.99_0006.mat" -> "7-0-0-0-0-3"
+	"sim-1-5-0.98-1.054-0.99_0005.mat" [shape=parallelogram]
+	"sim-1-5-0.98-1.054-0.99_0005.mat" -> "7-0-0-0-0-3"
+	"sim-1-5-0.98-1.054-0.99_0004.mat" [shape=parallelogram]
+	"sim-1-5-0.98-1.054-0.99_0004.mat" -> "7-0-0-0-0-3"
+	"mergedSim-1-5-0.98-1.054-0.99.mat" [shape=parallelogram,label="mergedSim"]
+	"7-0-0-0-0-3" -> "mergedSim-1-5-0.98-1.054-0.99.mat"
+	"7-0-0-0-0-4" [label="gj_transition"]
+	"policy-1-5-0.98-1.054-0.99.mat" [shape=parallelogram]
+	"policy-1-5-0.98-1.054-0.99.mat" -> "7-0-0-0-0-4"
+	"gj_log76.mat" [shape=parallelogram]
+	"gj_log76.mat" -> "7-0-0-0-0-4"
+	"history-1-5-0.98-1.054-0.99.mat" [shape=parallelogram,label="historyFile"]
+	"7-0-0-0-0-4" -> "history-1-5-0.98-1.054-0.99.mat"
+	"7-0-0-0-0-5" [label="gj_xi"]
+	"history-1-5-0.98-1.054-0.99.mat" [shape=parallelogram]
+	"history-1-5-0.98-1.054-0.99.mat" -> "7-0-0-0-0-5"
+	"mergedSim-1-5-0.98-1.054-0.99.mat" [shape=parallelogram]
+	"mergedSim-1-5-0.98-1.054-0.99.mat" -> "7-0-0-0-0-5"
+	"thai_gro.mat" [shape=parallelogram]
+	"thai_gro.mat" -> "7-0-0-0-0-5"
+	"thai_dat.mat" [shape=parallelogram]
+	"thai_dat.mat" -> "7-0-0-0-0-5"
+	"criterion-1-5-0.98-1.054-0.99.mat" [shape=parallelogram,label="criterionFile"]
+	"7-0-0-0-0-5" -> "criterion-1-5-0.98-1.054-0.99.mat"
+	"6-0-0-0-0-1" [label="gj_main"]
+	"policy-1-5-0.98-1.054-0.985.mat" [shape=parallelogram,label="policyFile"]
+	"6-0-0-0-0-1" -> "policy-1-5-0.98-1.054-0.985.mat"
+	"6-0-0-0-0-2-3" [label="gj_sim"]
+	"policy-1-5-0.98-1.054-0.985.mat" [shape=parallelogram]
+	"policy-1-5-0.98-1.054-0.985.mat" -> "6-0-0-0-0-2-3"
+	"gj_log76.mat" [shape=parallelogram]
+	"gj_log76.mat" -> "6-0-0-0-0-2-3"
+	"sim-1-5-0.98-1.054-0.985_0004.mat" [shape=parallelogram,label="simOutputs.[4]"]
+	"6-0-0-0-0-2-3" -> "sim-1-5-0.98-1.054-0.985_0004.mat"
+	"6-0-0-0-0-2-2" [label="gj_sim"]
+	"policy-1-5-0.98-1.054-0.985.mat" [shape=parallelogram]
+	"policy-1-5-0.98-1.054-0.985.mat" -> "6-0-0-0-0-2-2"
+	"gj_log76.mat" [shape=parallelogram]
+	"gj_log76.mat" -> "6-0-0-0-0-2-2"
+	"sim-1-5-0.98-1.054-0.985_0003.mat" [shape=parallelogram,label="simOutputs.[3]"]
+	"6-0-0-0-0-2-2" -> "sim-1-5-0.98-1.054-0.985_0003.mat"
+	"6-0-0-0-0-2-1" [label="gj_sim"]
+	"policy-1-5-0.98-1.054-0.985.mat" [shape=parallelogram]
+	"policy-1-5-0.98-1.054-0.985.mat" -> "6-0-0-0-0-2-1"
+	"gj_log76.mat" [shape=parallelogram]
+	"gj_log76.mat" -> "6-0-0-0-0-2-1"
+	"sim-1-5-0.98-1.054-0.985_0002.mat" [shape=parallelogram,label="simOutputs.[2]"]
+	"6-0-0-0-0-2-1" -> "sim-1-5-0.98-1.054-0.985_0002.mat"
+	"6-0-0-0-0-2-0" [label="gj_sim"]
+	"policy-1-5-0.98-1.054-0.985.mat" [shape=parallelogram]
+	"policy-1-5-0.98-1.054-0.985.mat" -> "6-0-0-0-0-2-0"
+	"gj_log76.mat" [shape=parallelogram]
+	"gj_log76.mat" -> "6-0-0-0-0-2-0"
+	"sim-1-5-0.98-1.054-0.985_0001.mat" [shape=parallelogram,label="simOutputs.[1]"]
+	"6-0-0-0-0-2-0" -> "sim-1-5-0.98-1.054-0.985_0001.mat"
+	"6-0-0-0-0-2-6" [label="gj_sim"]
+	"policy-1-5-0.98-1.054-0.985.mat" [shape=parallelogram]
+	"policy-1-5-0.98-1.054-0.985.mat" -> "6-0-0-0-0-2-6"
+	"gj_log76.mat" [shape=parallelogram]
+	"gj_log76.mat" -> "6-0-0-0-0-2-6"
+	"sim-1-5-0.98-1.054-0.985_0007.mat" [shape=parallelogram,label="simOutputs.[7]"]
+	"6-0-0-0-0-2-6" -> "sim-1-5-0.98-1.054-0.985_0007.mat"
+	"6-0-0-0-0-2-5" [label="gj_sim"]
+	"policy-1-5-0.98-1.054-0.985.mat" [shape=parallelogram]
+	"policy-1-5-0.98-1.054-0.985.mat" -> "6-0-0-0-0-2-5"
+	"gj_log76.mat" [shape=parallelogram]
+	"gj_log76.mat" -> "6-0-0-0-0-2-5"
+	"sim-1-5-0.98-1.054-0.985_0006.mat" [shape=parallelogram,label="simOutputs.[6]"]
+	"6-0-0-0-0-2-5" -> "sim-1-5-0.98-1.054-0.985_0006.mat"
+	"6-0-0-0-0-2-4" [label="gj_sim"]
+	"policy-1-5-0.98-1.054-0.985.mat" [shape=parallelogram]
+	"policy-1-5-0.98-1.054-0.985.mat" -> "6-0-0-0-0-2-4"
+	"gj_log76.mat" [shape=parallelogram]
+	"gj_log76.mat" -> "6-0-0-0-0-2-4"
+	"sim-1-5-0.98-1.054-0.985_0005.mat" [shape=parallelogram,label="simOutputs.[5]"]
+	"6-0-0-0-0-2-4" -> "sim-1-5-0.98-1.054-0.985_0005.mat"
+	"6-0-0-0-0-3" [label="gj_collect"]
+	"sim-1-5-0.98-1.054-0.985_0003.mat" [shape=parallelogram]
+	"sim-1-5-0.98-1.054-0.985_0003.mat" -> "6-0-0-0-0-3"
+	"sim-1-5-0.98-1.054-0.985_0002.mat" [shape=parallelogram]
+	"sim-1-5-0.98-1.054-0.985_0002.mat" -> "6-0-0-0-0-3"
+	"sim-1-5-0.98-1.054-0.985_0001.mat" [shape=parallelogram]
+	"sim-1-5-0.98-1.054-0.985_0001.mat" -> "6-0-0-0-0-3"
+	"sim-1-5-0.98-1.054-0.985_0007.mat" [shape=parallelogram]
+	"sim-1-5-0.98-1.054-0.985_0007.mat" -> "6-0-0-0-0-3"
+	"sim-1-5-0.98-1.054-0.985_0006.mat" [shape=parallelogram]
+	"sim-1-5-0.98-1.054-0.985_0006.mat" -> "6-0-0-0-0-3"
+	"sim-1-5-0.98-1.054-0.985_0005.mat" [shape=parallelogram]
+	"sim-1-5-0.98-1.054-0.985_0005.mat" -> "6-0-0-0-0-3"
+	"sim-1-5-0.98-1.054-0.985_0004.mat" [shape=parallelogram]
+	"sim-1-5-0.98-1.054-0.985_0004.mat" -> "6-0-0-0-0-3"
+	"mergedSim-1-5-0.98-1.054-0.985.mat" [shape=parallelogram,label="mergedSim"]
+	"6-0-0-0-0-3" -> "mergedSim-1-5-0.98-1.054-0.985.mat"
+	"6-0-0-0-0-4" [label="gj_transition"]
+	"policy-1-5-0.98-1.054-0.985.mat" [shape=parallelogram]
+	"policy-1-5-0.98-1.054-0.985.mat" -> "6-0-0-0-0-4"
+	"gj_log76.mat" [shape=parallelogram]
+	"gj_log76.mat" -> "6-0-0-0-0-4"
+	"history-1-5-0.98-1.054-0.985.mat" [shape=parallelogram,label="historyFile"]
+	"6-0-0-0-0-4" -> "history-1-5-0.98-1.054-0.985.mat"
+	"6-0-0-0-0-5" [label="gj_xi"]
+	"history-1-5-0.98-1.054-0.985.mat" [shape=parallelogram]
+	"history-1-5-0.98-1.054-0.985.mat" -> "6-0-0-0-0-5"
+	"mergedSim-1-5-0.98-1.054-0.985.mat" [shape=parallelogram]
+	"mergedSim-1-5-0.98-1.054-0.985.mat" -> "6-0-0-0-0-5"
+	"thai_gro.mat" [shape=parallelogram]
+	"thai_gro.mat" -> "6-0-0-0-0-5"
+	"thai_dat.mat" [shape=parallelogram]
+	"thai_dat.mat" -> "6-0-0-0-0-5"
+	"criterion-1-5-0.98-1.054-0.985.mat" [shape=parallelogram,label="criterionFile"]
+	"6-0-0-0-0-5" -> "criterion-1-5-0.98-1.054-0.985.mat"
+	"5-0-0-0-0-1" [label="gj_main"]
+	"policy-1-5-0.98-1.054-0.98.mat" [shape=parallelogram,label="policyFile"]
+	"5-0-0-0-0-1" -> "policy-1-5-0.98-1.054-0.98.mat"
+	"5-0-0-0-0-2-3" [label="gj_sim"]
+	"policy-1-5-0.98-1.054-0.98.mat" [shape=parallelogram]
+	"policy-1-5-0.98-1.054-0.98.mat" -> "5-0-0-0-0-2-3"
+	"gj_log76.mat" [shape=parallelogram]
+	"gj_log76.mat" -> "5-0-0-0-0-2-3"
+	"sim-1-5-0.98-1.054-0.98_0004.mat" [shape=parallelogram,label="simOutputs.[4]"]
+	"5-0-0-0-0-2-3" -> "sim-1-5-0.98-1.054-0.98_0004.mat"
+	"5-0-0-0-0-2-2" [label="gj_sim"]
+	"policy-1-5-0.98-1.054-0.98.mat" [shape=parallelogram]
+	"policy-1-5-0.98-1.054-0.98.mat" -> "5-0-0-0-0-2-2"
+	"gj_log76.mat" [shape=parallelogram]
+	"gj_log76.mat" -> "5-0-0-0-0-2-2"
+	"sim-1-5-0.98-1.054-0.98_0003.mat" [shape=parallelogram,label="simOutputs.[3]"]
+	"5-0-0-0-0-2-2" -> "sim-1-5-0.98-1.054-0.98_0003.mat"
+	"5-0-0-0-0-2-1" [label="gj_sim"]
+	"policy-1-5-0.98-1.054-0.98.mat" [shape=parallelogram]
+	"policy-1-5-0.98-1.054-0.98.mat" -> "5-0-0-0-0-2-1"
+	"gj_log76.mat" [shape=parallelogram]
+	"gj_log76.mat" -> "5-0-0-0-0-2-1"
+	"sim-1-5-0.98-1.054-0.98_0002.mat" [shape=parallelogram,label="simOutputs.[2]"]
+	"5-0-0-0-0-2-1" -> "sim-1-5-0.98-1.054-0.98_0002.mat"
+	"5-0-0-0-0-2-0" [label="gj_sim"]
+	"policy-1-5-0.98-1.054-0.98.mat" [shape=parallelogram]
+	"policy-1-5-0.98-1.054-0.98.mat" -> "5-0-0-0-0-2-0"
+	"gj_log76.mat" [shape=parallelogram]
+	"gj_log76.mat" -> "5-0-0-0-0-2-0"
+	"sim-1-5-0.98-1.054-0.98_0001.mat" [shape=parallelogram,label="simOutputs.[1]"]
+	"5-0-0-0-0-2-0" -> "sim-1-5-0.98-1.054-0.98_0001.mat"
+	"5-0-0-0-0-2-6" [label="gj_sim"]
+	"policy-1-5-0.98-1.054-0.98.mat" [shape=parallelogram]
+	"policy-1-5-0.98-1.054-0.98.mat" -> "5-0-0-0-0-2-6"
+	"gj_log76.mat" [shape=parallelogram]
+	"gj_log76.mat" -> "5-0-0-0-0-2-6"
+	"sim-1-5-0.98-1.054-0.98_0007.mat" [shape=parallelogram,label="simOutputs.[7]"]
+	"5-0-0-0-0-2-6" -> "sim-1-5-0.98-1.054-0.98_0007.mat"
+	"5-0-0-0-0-2-5" [label="gj_sim"]
+	"policy-1-5-0.98-1.054-0.98.mat" [shape=parallelogram]
+	"policy-1-5-0.98-1.054-0.98.mat" -> "5-0-0-0-0-2-5"
+	"gj_log76.mat" [shape=parallelogram]
+	"gj_log76.mat" -> "5-0-0-0-0-2-5"
+	"sim-1-5-0.98-1.054-0.98_0006.mat" [shape=parallelogram,label="simOutputs.[6]"]
+	"5-0-0-0-0-2-5" -> "sim-1-5-0.98-1.054-0.98_0006.mat"
+	"5-0-0-0-0-2-4" [label="gj_sim"]
+	"policy-1-5-0.98-1.054-0.98.mat" [shape=parallelogram]
+	"policy-1-5-0.98-1.054-0.98.mat" -> "5-0-0-0-0-2-4"
+	"gj_log76.mat" [shape=parallelogram]
+	"gj_log76.mat" -> "5-0-0-0-0-2-4"
+	"sim-1-5-0.98-1.054-0.98_0005.mat" [shape=parallelogram,label="simOutputs.[5]"]
+	"5-0-0-0-0-2-4" -> "sim-1-5-0.98-1.054-0.98_0005.mat"
+	"5-0-0-0-0-3" [label="gj_collect"]
+	"sim-1-5-0.98-1.054-0.98_0003.mat" [shape=parallelogram]
+	"sim-1-5-0.98-1.054-0.98_0003.mat" -> "5-0-0-0-0-3"
+	"sim-1-5-0.98-1.054-0.98_0002.mat" [shape=parallelogram]
+	"sim-1-5-0.98-1.054-0.98_0002.mat" -> "5-0-0-0-0-3"
+	"sim-1-5-0.98-1.054-0.98_0001.mat" [shape=parallelogram]
+	"sim-1-5-0.98-1.054-0.98_0001.mat" -> "5-0-0-0-0-3"
+	"sim-1-5-0.98-1.054-0.98_0007.mat" [shape=parallelogram]
+	"sim-1-5-0.98-1.054-0.98_0007.mat" -> "5-0-0-0-0-3"
+	"sim-1-5-0.98-1.054-0.98_0006.mat" [shape=parallelogram]
+	"sim-1-5-0.98-1.054-0.98_0006.mat" -> "5-0-0-0-0-3"
+	"sim-1-5-0.98-1.054-0.98_0005.mat" [shape=parallelogram]
+	"sim-1-5-0.98-1.054-0.98_0005.mat" -> "5-0-0-0-0-3"
+	"sim-1-5-0.98-1.054-0.98_0004.mat" [shape=parallelogram]
+	"sim-1-5-0.98-1.054-0.98_0004.mat" -> "5-0-0-0-0-3"
+	"mergedSim-1-5-0.98-1.054-0.98.mat" [shape=parallelogram,label="mergedSim"]
+	"5-0-0-0-0-3" -> "mergedSim-1-5-0.98-1.054-0.98.mat"
+	"5-0-0-0-0-4" [label="gj_transition"]
+	"policy-1-5-0.98-1.054-0.98.mat" [shape=parallelogram]
+	"policy-1-5-0.98-1.054-0.98.mat" -> "5-0-0-0-0-4"
+	"gj_log76.mat" [shape=parallelogram]
+	"gj_log76.mat" -> "5-0-0-0-0-4"
+	"history-1-5-0.98-1.054-0.98.mat" [shape=parallelogram,label="historyFile"]
+	"5-0-0-0-0-4" -> "history-1-5-0.98-1.054-0.98.mat"
+	"5-0-0-0-0-5" [label="gj_xi"]
+	"history-1-5-0.98-1.054-0.98.mat" [shape=parallelogram]
+	"history-1-5-0.98-1.054-0.98.mat" -> "5-0-0-0-0-5"
+	"mergedSim-1-5-0.98-1.054-0.98.mat" [shape=parallelogram]
+	"mergedSim-1-5-0.98-1.054-0.98.mat" -> "5-0-0-0-0-5"
+	"thai_gro.mat" [shape=parallelogram]
+	"thai_gro.mat" -> "5-0-0-0-0-5"
+	"thai_dat.mat" [shape=parallelogram]
+	"thai_dat.mat" -> "5-0-0-0-0-5"
+	"criterion-1-5-0.98-1.054-0.98.mat" [shape=parallelogram,label="criterionFile"]
+	"5-0-0-0-0-5" -> "criterion-1-5-0.98-1.054-0.98.mat"
+	"4-0-0-0-0-1" [label="gj_main"]
+	"policy-1-5-0.98-1.054-0.975.mat" [shape=parallelogram,label="policyFile"]
+	"4-0-0-0-0-1" -> "policy-1-5-0.98-1.054-0.975.mat"
+	"4-0-0-0-0-2-3" [label="gj_sim"]
+	"policy-1-5-0.98-1.054-0.975.mat" [shape=parallelogram]
+	"policy-1-5-0.98-1.054-0.975.mat" -> "4-0-0-0-0-2-3"
+	"gj_log76.mat" [shape=parallelogram]
+	"gj_log76.mat" -> "4-0-0-0-0-2-3"
+	"sim-1-5-0.98-1.054-0.975_0004.mat" [shape=parallelogram,label="simOutputs.[4]"]
+	"4-0-0-0-0-2-3" -> "sim-1-5-0.98-1.054-0.975_0004.mat"
+	"4-0-0-0-0-2-2" [label="gj_sim"]
+	"policy-1-5-0.98-1.054-0.975.mat" [shape=parallelogram]
+	"policy-1-5-0.98-1.054-0.975.mat" -> "4-0-0-0-0-2-2"
+	"gj_log76.mat" [shape=parallelogram]
+	"gj_log76.mat" -> "4-0-0-0-0-2-2"
+	"sim-1-5-0.98-1.054-0.975_0003.mat" [shape=parallelogram,label="simOutputs.[3]"]
+	"4-0-0-0-0-2-2" -> "sim-1-5-0.98-1.054-0.975_0003.mat"
+	"4-0-0-0-0-2-1" [label="gj_sim"]
+	"policy-1-5-0.98-1.054-0.975.mat" [shape=parallelogram]
+	"policy-1-5-0.98-1.054-0.975.mat" -> "4-0-0-0-0-2-1"
+	"gj_log76.mat" [shape=parallelogram]
+	"gj_log76.mat" -> "4-0-0-0-0-2-1"
+	"sim-1-5-0.98-1.054-0.975_0002.mat" [shape=parallelogram,label="simOutputs.[2]"]
+	"4-0-0-0-0-2-1" -> "sim-1-5-0.98-1.054-0.975_0002.mat"
+	"4-0-0-0-0-2-0" [label="gj_sim"]
+	"policy-1-5-0.98-1.054-0.975.mat" [shape=parallelogram]
+	"policy-1-5-0.98-1.054-0.975.mat" -> "4-0-0-0-0-2-0"
+	"gj_log76.mat" [shape=parallelogram]
+	"gj_log76.mat" -> "4-0-0-0-0-2-0"
+	"sim-1-5-0.98-1.054-0.975_0001.mat" [shape=parallelogram,label="simOutputs.[1]"]
+	"4-0-0-0-0-2-0" -> "sim-1-5-0.98-1.054-0.975_0001.mat"
+	"4-0-0-0-0-2-6" [label="gj_sim"]
+	"policy-1-5-0.98-1.054-0.975.mat" [shape=parallelogram]
+	"policy-1-5-0.98-1.054-0.975.mat" -> "4-0-0-0-0-2-6"
+	"gj_log76.mat" [shape=parallelogram]
+	"gj_log76.mat" -> "4-0-0-0-0-2-6"
+	"sim-1-5-0.98-1.054-0.975_0007.mat" [shape=parallelogram,label="simOutputs.[7]"]
+	"4-0-0-0-0-2-6" -> "sim-1-5-0.98-1.054-0.975_0007.mat"
+	"4-0-0-0-0-2-5" [label="gj_sim"]
+	"policy-1-5-0.98-1.054-0.975.mat" [shape=parallelogram]
+	"policy-1-5-0.98-1.054-0.975.mat" -> "4-0-0-0-0-2-5"
+	"gj_log76.mat" [shape=parallelogram]
+	"gj_log76.mat" -> "4-0-0-0-0-2-5"
+	"sim-1-5-0.98-1.054-0.975_0006.mat" [shape=parallelogram,label="simOutputs.[6]"]
+	"4-0-0-0-0-2-5" -> "sim-1-5-0.98-1.054-0.975_0006.mat"
+	"4-0-0-0-0-2-4" [label="gj_sim"]
+	"policy-1-5-0.98-1.054-0.975.mat" [shape=parallelogram]
+	"policy-1-5-0.98-1.054-0.975.mat" -> "4-0-0-0-0-2-4"
+	"gj_log76.mat" [shape=parallelogram]
+	"gj_log76.mat" -> "4-0-0-0-0-2-4"
+	"sim-1-5-0.98-1.054-0.975_0005.mat" [shape=parallelogram,label="simOutputs.[5]"]
+	"4-0-0-0-0-2-4" -> "sim-1-5-0.98-1.054-0.975_0005.mat"
+	"4-0-0-0-0-3" [label="gj_collect"]
+	"sim-1-5-0.98-1.054-0.975_0003.mat" [shape=parallelogram]
+	"sim-1-5-0.98-1.054-0.975_0003.mat" -> "4-0-0-0-0-3"
+	"sim-1-5-0.98-1.054-0.975_0002.mat" [shape=parallelogram]
+	"sim-1-5-0.98-1.054-0.975_0002.mat" -> "4-0-0-0-0-3"
+	"sim-1-5-0.98-1.054-0.975_0001.mat" [shape=parallelogram]
+	"sim-1-5-0.98-1.054-0.975_0001.mat" -> "4-0-0-0-0-3"
+	"sim-1-5-0.98-1.054-0.975_0007.mat" [shape=parallelogram]
+	"sim-1-5-0.98-1.054-0.975_0007.mat" -> "4-0-0-0-0-3"
+	"sim-1-5-0.98-1.054-0.975_0006.mat" [shape=parallelogram]
+	"sim-1-5-0.98-1.054-0.975_0006.mat" -> "4-0-0-0-0-3"
+	"sim-1-5-0.98-1.054-0.975_0005.mat" [shape=parallelogram]
+	"sim-1-5-0.98-1.054-0.975_0005.mat" -> "4-0-0-0-0-3"
+	"sim-1-5-0.98-1.054-0.975_0004.mat" [shape=parallelogram]
+	"sim-1-5-0.98-1.054-0.975_0004.mat" -> "4-0-0-0-0-3"
+	"mergedSim-1-5-0.98-1.054-0.975.mat" [shape=parallelogram,label="mergedSim"]
+	"4-0-0-0-0-3" -> "mergedSim-1-5-0.98-1.054-0.975.mat"
+	"4-0-0-0-0-4" [label="gj_transition"]
+	"policy-1-5-0.98-1.054-0.975.mat" [shape=parallelogram]
+	"policy-1-5-0.98-1.054-0.975.mat" -> "4-0-0-0-0-4"
+	"gj_log76.mat" [shape=parallelogram]
+	"gj_log76.mat" -> "4-0-0-0-0-4"
+	"history-1-5-0.98-1.054-0.975.mat" [shape=parallelogram,label="historyFile"]
+	"4-0-0-0-0-4" -> "history-1-5-0.98-1.054-0.975.mat"
+	"4-0-0-0-0-5" [label="gj_xi"]
+	"history-1-5-0.98-1.054-0.975.mat" [shape=parallelogram]
+	"history-1-5-0.98-1.054-0.975.mat" -> "4-0-0-0-0-5"
+	"mergedSim-1-5-0.98-1.054-0.975.mat" [shape=parallelogram]
+	"mergedSim-1-5-0.98-1.054-0.975.mat" -> "4-0-0-0-0-5"
+	"thai_gro.mat" [shape=parallelogram]
+	"thai_gro.mat" -> "4-0-0-0-0-5"
+	"thai_dat.mat" [shape=parallelogram]
+	"thai_dat.mat" -> "4-0-0-0-0-5"
+	"criterion-1-5-0.98-1.054-0.975.mat" [shape=parallelogram,label="criterionFile"]
+	"4-0-0-0-0-5" -> "criterion-1-5-0.98-1.054-0.975.mat"
+}

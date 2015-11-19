@@ -1,0 +1,17 @@
+NO MATLAB AT
+ * UI
+
+
+teraport workflow with 50 simulations: 42 minutes
+
+purdue, 100 simulations ran for 92 minutes
+
+
+ncsa (available on tungsten):
+/usr/apps/math/matlab/R2006b/bin/matlab 
+
+
+
+gj_master
+@UC32: 	2hr,40 min
+@TP:	1hr, 40 min

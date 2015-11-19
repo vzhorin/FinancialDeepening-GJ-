@@ -1,0 +1,835 @@
+
+GJbet =
+
+    0.9600
+
+
+GJdel =
+
+    1.0540
+
+
+GJq =
+
+     5
+
+
+ans =
+
+    1.0470    1.1470
+
+
+ans =
+
+   -0.6000    0.6000
+
+
+GJbet =
+
+    0.9600
+
+
+GJdel =
+
+    1.0540
+
+
+GJq =
+
+     5
+
+
+ans =
+
+    1.0470    1.1470
+
+
+ans =
+
+   -0.6000    0.6000
+
+
+Faio =
+
+    0.3762
+
+
+bigiter =
+
+     1
+
+
+Tdif =
+
+    2.8522
+
+
+bigiter =
+
+     2
+
+
+Tdif =
+
+    0.2834
+
+
+bigiter =
+
+     3
+
+
+Tdif =
+
+    0.1493
+
+
+bigiter =
+
+     4
+
+
+Tdif =
+
+    0.0745
+
+
+bigiter2 =
+
+     1
+
+
+Tdif =
+
+    0.0741
+
+
+bigiter2 =
+
+     2
+
+
+Tdif =
+
+    0.0554
+
+
+bigiter2 =
+
+     3
+
+
+Tdif =
+
+    0.0431
+
+
+bigiter2 =
+
+     4
+
+
+Tdif =
+
+    0.0355
+
+
+bigiter2 =
+
+     5
+
+
+Tdif =
+
+    0.0300
+
+
+bigiter2 =
+
+     6
+
+
+Tdif =
+
+    0.0257
+
+
+bigiter2 =
+
+     7
+
+
+Tdif =
+
+    0.0223
+
+
+bigiter2 =
+
+     8
+
+
+Tdif =
+
+    0.0197
+
+
+bigiter2 =
+
+     9
+
+
+Tdif =
+
+    0.0174
+
+
+bigiter2 =
+
+    10
+
+
+Tdif =
+
+    0.0155
+
+
+bigiter2 =
+
+    11
+
+
+Tdif =
+
+    0.0139
+
+
+bigiter2 =
+
+    12
+
+
+Tdif =
+
+    0.0126
+
+
+bigiter2 =
+
+    13
+
+
+Tdif =
+
+    0.0114
+
+
+bigiter2 =
+
+    14
+
+
+Tdif =
+
+    0.0104
+
+
+bigiter2 =
+
+    15
+
+
+Tdif =
+
+    0.0095
+
+
+GJbet =
+
+    0.9600
+
+
+GJdel =
+
+    1.0540
+
+
+GJq =
+
+     5
+
+
+ans =
+
+    1.0470    1.1470
+
+
+ans =
+
+   -0.6000    0.6000
+
+
+Faio =
+
+    0.3762
+
+
+bigiter =
+
+     1
+
+
+Tdif =
+
+    2.8522
+
+
+bigiter =
+
+     2
+
+
+Tdif =
+
+    0.2834
+
+
+bigiter =
+
+     3
+
+
+Tdif =
+
+    0.1493
+
+
+bigiter =
+
+     4
+
+
+Tdif =
+
+    0.0745
+
+
+bigiter2 =
+
+     1
+
+
+GJbet =
+
+    0.9600
+
+
+GJdel =
+
+    1.0540
+
+
+GJq =
+
+     5
+
+
+ans =
+
+    1.0470    1.1470
+
+
+ans =
+
+   -0.6000    0.6000
+
+
+Faio =
+
+    0.3762
+
+
+bigiter =
+
+     1
+
+
+Tdif =
+
+    2.8522
+
+
+bigiter =
+
+     2
+
+
+Tdif =
+
+    0.2834
+
+
+bigiter =
+
+     3
+
+
+Tdif =
+
+    0.1493
+
+
+bigiter =
+
+     4
+
+
+Tdif =
+
+    0.0745
+
+
+bigiter2 =
+
+     1
+
+
+Tdif =
+
+    0.0741
+
+
+bigiter2 =
+
+     2
+
+
+Tdif =
+
+    0.0554
+
+
+bigiter2 =
+
+     3
+
+
+Tdif =
+
+    0.0431
+
+
+bigiter2 =
+
+     4
+
+
+Tdif =
+
+    0.0355
+
+
+bigiter2 =
+
+     5
+
+
+Tdif =
+
+    0.0300
+
+
+bigiter2 =
+
+     6
+
+
+Tdif =
+
+    0.0257
+
+
+bigiter2 =
+
+     7
+
+
+Tdif =
+
+    0.0223
+
+
+bigiter2 =
+
+     8
+
+
+Tdif =
+
+    0.0197
+
+
+bigiter2 =
+
+     9
+
+
+Tdif =
+
+    0.0174
+
+
+bigiter2 =
+
+    10
+
+
+Tdif =
+
+    0.0155
+
+
+bigiter2 =
+
+    11
+
+
+Tdif =
+
+    0.0139
+
+
+bigiter2 =
+
+    12
+
+
+Tdif =
+
+    0.0126
+
+
+bigiter2 =
+
+    13
+
+
+Tdif =
+
+    0.0114
+
+
+bigiter2 =
+
+    14
+
+
+Tdif =
+
+    0.0104
+
+
+bigiter2 =
+
+    15
+
+
+Tdif =
+
+    0.0095
+
+
+GJbet =
+
+    0.9600
+
+
+GJdel =
+
+    1.0540
+
+
+GJq =
+
+     5
+
+
+ans =
+
+    1.0470    1.1470
+
+
+ans =
+
+   -0.6000    0.6000
+
+
+Faio =
+
+    0.3762
+
+
+bigiter =
+
+     1
+
+
+Tdif =
+
+    2.8522
+
+
+bigiter =
+
+     2
+
+
+Tdif =
+
+    0.2834
+
+
+bigiter =
+
+     3
+
+
+Tdif =
+
+    0.1493
+
+
+bigiter =
+
+     4
+
+
+Tdif =
+
+    0.0745
+
+
+bigiter2 =
+
+     1
+
+
+GJbet =
+
+    0.9600
+
+
+GJdel =
+
+    1.0540
+
+
+GJq =
+
+     5
+
+
+ans =
+
+    1.0470    1.1470
+
+
+ans =
+
+   -0.6000    0.6000
+
+
+Faio =
+
+    0.3762
+
+
+bigiter =
+
+     1
+
+
+Tdif =
+
+    2.8522
+
+
+bigiter =
+
+     2
+
+
+Tdif =
+
+    0.2834
+
+
+bigiter =
+
+     3
+
+
+Tdif =
+
+    0.1493
+
+
+bigiter =
+
+     4
+
+
+Tdif =
+
+    0.0745
+
+
+bigiter2 =
+
+     1
+
+
+Tdif =
+
+    0.0741
+
+
+bigiter2 =
+
+     2
+
+
+Tdif =
+
+    0.0554
+
+
+bigiter2 =
+
+     3
+
+
+Tdif =
+
+    0.0431
+
+
+bigiter2 =
+
+     4
+
+
+Tdif =
+
+    0.0355
+
+
+bigiter2 =
+
+     5
+
+
+Tdif =
+
+    0.0300
+
+
+bigiter2 =
+
+     6
+
+
+Tdif =
+
+    0.0257
+
+
+bigiter2 =
+
+     7
+
+
+Tdif =
+
+    0.0223
+
+
+bigiter2 =
+
+     8
+
+
+Tdif =
+
+    0.0197
+
+
+bigiter2 =
+
+     9
+
+
+Tdif =
+
+    0.0174
+
+
+bigiter2 =
+
+    10
+
+
+Tdif =
+
+    0.0155
+
+
+bigiter2 =
+
+    11
+
+
+Tdif =
+
+    0.0139
+
+
+bigiter2 =
+
+    12
+
+
+Tdif =
+
+    0.0126
+
+
+bigiter2 =
+
+    13
+
+
+Tdif =
+
+    0.0114
+
+
+bigiter2 =
+
+    14
+
+
+Tdif =
+
+    0.0104
+
+
+bigiter2 =
+
+    15
+
+
+Tdif =
+
+    0.0095
+
